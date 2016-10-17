@@ -1,0 +1,12 @@
+### Housing Report
+
+One row for each participant or other person to be housed.
+
+**Columns:** Name, Companion, Housing Committee Contact, Housers Names, Houser Street/ZIP, Houser Phone, Arrival Trip Details, Departure Trip Details, Days Here, Smoking OK, Pets OK, Participant Notes
+
+Where a companion has a different arrival and/or departure flight, show that info separately in the trip columns.
+
+See sample from last year for format and other details.
+
+*This requirement incorporates the following issues:*
+{Title 1553}

@@ -1,0 +1,64 @@
+# CWA Database Project Requirements
+*Version 1 Draft 1*
+
+## 1. Database
+MySQL 5,5 or later.
+**Entities:** Persons, Panels, Topics, Venues, Donations, Houses, Trips.
+
+## 2. CRUD
+A page for each entity consisting of a form with a field for each column.
+
+## 3. Processing
+None. (The application pretty much just pushes data from place to place, not actually doing much of anything with it.)
+
+## 4. Reports
+Panelists, Alpha List, Stable List, Trips, Housing. More will be specified later.
+
+### Housing Report
+
+One row for each participant or other person to be housed.
+
+**Columns:** Name, Companion, Housing Committee Contact, Housers Names, Houser Street/ZIP, Houser Phone, Arrival Trip Details, Departure Trip Details, Days Here, Smoking OK, Pets OK, Participant Notes
+
+See sample from last year for format and other details.
+
+{Issue 1553}
+
+## 5. External Interfaces
+None. Totally standalone. There might be a report to get data to populate the online schedule on the CWA website, but that will just be a CSV file.
+
+## 6. I18N and L10N
+No I18N; English only. (Although data itself can be Unicode.)
+
+## 7. Accessibility
+None other than what the OS offers (e.g., bigger cursor).
+
+## 8. User Administration
+Administrator and user logins. No finer-grained restrictions.
+
+## 9. Billing
+None.
+
+## 10. Browsers and Platform
+Safari and Chrome on MacOS, Internet Explorer and Chrome on Windows. Latest browsers only; no effort will be expended to support very old browsers. Nothing special for mobile; if it works on an iPhone, fine; if not, tough luck.
+
+## 11. Installation
+None, other than the single production system run by the University of Colorado Managed Services department.
+
+## 12. Capacity
+Five-to-ten simultaneous users. Database must hold 80 years of data (CWA started in 1948), with 100 panelists and 200 panels per year. Ten thousand donors.
+
+## 13. Documentation
+None.
+
+## 14. Training
+No formal training, but developer will meet with users from occasionally.
+
+## 15. Support and Maintenance
+Support via email. An occasional phone call is OK, too. System will be updated and enhanced in future years as needed.
+
+## 16. Conversion
+From existing Excel spreadsheets and FileMaker database. Customer will extract data and email it to developer.
+
+## 17. Use Cases
+TBD.
